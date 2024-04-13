@@ -1,0 +1,29 @@
+/* src/styles/Layout.css */
+.header {
+  background-color: #f8f9fa;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navbar-profile img {
+    width: 50px; /* Ajuste la taille selon tes besoins */
+    height: 50px; /* Ajuste la taille selon tes besoins */
+    border-radius: 50%; /* Rend l'image circulaire */
+}
+
+/* Ajoute des styles supplémentaires pour la responsivité ou pour embellir la navbar */
